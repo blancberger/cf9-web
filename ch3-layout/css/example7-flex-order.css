@@ -1,0 +1,27 @@
+.container {
+  width:250px;
+  height: 250px;
+  border:1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+div[class^='box']{
+  width:60px;
+  height: 60px;
+  background-color: lightblue;
+  margin: 5px 5px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.box1 {
+  order:1;
+}
+
+.box3 {
+  order:2;
+}

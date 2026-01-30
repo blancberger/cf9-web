@@ -1,0 +1,74 @@
+body {
+  background-color: lightgray;
+}
+
+p, li {
+  color: red;
+}
+
+/* li {
+  color: red;
+} */
+
+.aueb-logo {
+  border: 3px solid green;
+  width:400px;
+}
+
+img.aueb-logo {
+  height: auto;
+}
+
+p.aueb-logo {
+  color: blue;
+}
+
+/* p { 
+  color: yellow;
+} */
+
+ul > li {
+  color: blue;
+}
+
+h1 + p {
+  color:orange;
+}
+
+.link-cf:link {
+  text-decoration: none;
+  color:black;
+}
+
+.link-cf:visited{
+  color:brown;
+}
+
+.link-cf:hover {
+  background-color: green;
+}
+
+.link-cf:focus {
+  outline:none;
+  background-color: yellow;
+}
+
+.link-cf:active {
+  background-color: chocolate;
+}
+
+#auebLogo {
+  color: lightskyblue
+}
+
+.border-green-1 {
+  border:1px solid green;
+}
+
+.border-green-2 {
+  border: 2px solid green;
+}
+
+.text-blue {
+  color:blue
+}

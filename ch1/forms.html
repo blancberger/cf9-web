@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <h2>My First Form</h2>
+  <form>
+    <div>
+      <input type="radio" name="gender" value="male" id="fldMale" checked>
+      <label for="fldMale">Άντρας</label><br>
+      <input type="radio" name="gender" value="female" id="fldFemale">
+      <label for="fldFemale">Γυναίκα</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="vehicle1" value="bike" id="fldBike" checked>
+      <label for="fldBike">Ποδήλατο</label><br>
+      <input type="checkbox" name="vehicle2" value="motorcycle" id="fldMotorcycle">
+      <label for="fldMotorcycle">Μοτοσυκλέτα</label><br>
+      <input type="checkbox" name="vehicle3" value="car" id="fldCar">
+      <label for="fldCar">Αυτοκίνητο</label> 
+    </div>
+
+    <div>
+      <label for="fldNationality">Υπηκοότητα</label>
+      <select name="nationality" id="fldNationality">
+        <option value="" disabled selected>Επιλέξτε Υπηκοότητα</option>
+        <option value="greek">Ελλάδα</option>
+        <option value="english">Αγγλία</option>
+        <option value="spain">Ισπανία</option>
+      </select>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend>Προσωπικά στοιχεία</legend>  
+        <div >
+          <label for="fldFirstName">Όνομα</label>
+          <input type="text" name="firstname" id="fldFirstName" placeholder="Συμπληρώστε Όνομα"  minlength="5" maxlength="15" required>
+        </div>
+        <div>
+          <label for="fldWordExperience">Χρόνια προϋπηρεσίας</label>
+          <input type="number" name="word-experience" id="fldWordExperience" min="3" max="20">
+        </div>
+        <div>
+          <label for="fldEmail">Email</label>
+          <input type="email" name="email" id="fldEmail">
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <label for="fldMessage">Γραψτε το μήνυμα σας</label>
+      <textarea name="message" id="fldMessage" rows="10" cols="30"></textarea>
+    </div>
+
+    <div>
+      <input type="submit" value="Υποβολή">
+      <input type="reset" value="Καθάρισμα">
+    </div>
+  </form>
+
+</body>
+</html>
